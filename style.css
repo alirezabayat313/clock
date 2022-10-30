@@ -1,0 +1,28 @@
+*{
+    list-style: none;
+}
+html{
+    font-size: 16px;
+    background-color: rgb(32, 32, 32);
+}
+@font-face {
+    font-family: "iransans";
+    src: url("./font/IRANSansWeb\(FaNum\).woff2") format(".woff2");
+    font-style: normal;
+    font-weight: normal;
+}
+.container{
+    font-size: 26px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.clock{
+    display: flex;
+}
+li{
+    color: rgb(81, 81, 206);
+    margin: 15px;
+}
